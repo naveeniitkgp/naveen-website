@@ -1,18 +1,13 @@
-// Step 1: Import React
 import * as React from 'react'
+import Layout from '../components/layout'
 
-// Step 2: Define your component
 const AboutPage = () => {
   return (
-    <main>
-      <title>About Me</title>
-      <h1>About Me</h1>
+    <Layout pageTitle="About Me">
       <p>Hi! I'm Naveen Kumar Maddu. This site is deticated to my research in Computer-aided design 
-         and Machine Learning.  
-      </p>
-    </main>
+         and Machine Learning.</p>
+    </Layout>
   )
 }
 
-// Step 3: Export your component
 export default AboutPage
