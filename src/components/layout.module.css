@@ -1,7 +1,7 @@
 .container {
     margin: auto;
     max-width: 500px;
-    font-family: Inter;
+    font-family: sans-serif;
   }
 
   .heading {
@@ -22,7 +22,7 @@
   /* ... your existing styles */
 .site-title {
   font-size: 2rem;
-  color: gray;
+  color: rgb(128, 40, 40);
   font-weight: 700;
   margin: 3rem 0;
 }
